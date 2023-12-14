@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "cmdutil",
+  "version": "v1.0.0",
+  "name": "CommandUtil",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/calboot/CommandUtil-1.17.1"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/cmdutil/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.calboot.cmdutil.CommandUtil"
+    ]
+  },
+  "mixins": [
+    "cmdutil.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
