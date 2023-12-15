@@ -4,7 +4,9 @@
   "version": "v1.0.0",
   "name": "CommandUtil",
   "description": "",
-  "authors": [],
+  "authors": [
+    "Calboot"
+  ],
   "contact": {
     "repo": "https://github.com/calboot/CommandUtil-1.17.1"
   },
@@ -20,8 +22,8 @@
     "cmdutil.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.14.25",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "1.17.1"
   }
 }

@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
-    <configuration default="false" name="build" type="GradleRunConfiguration" factoryName="Gradle">
+    <configuration default="false" name="genSources" type="GradleRunConfiguration" factoryName="Gradle">
         <ExternalSystemSettings>
-            <option name="executionName" value="command-util build"/>
+            <option name="executionName"/>
             <option name="externalProjectPath" value="$PROJECT_DIR$"/>
             <option name="externalSystemIdString" value="GRADLE"/>
             <option name="scriptParameters" value=""/>
@@ -10,7 +10,7 @@
             </option>
             <option name="taskNames">
                 <list>
-                    <option value="build"/>
+                    <option value="genSources"/>
                 </list>
             </option>
             <option name="vmOptions"/>

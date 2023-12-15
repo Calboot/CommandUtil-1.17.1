@@ -1,0 +1,4 @@
+{
+  "commands.cmdutil.killitem.no_target": "No item to kill",
+  "commands.cmdutil.killitem.success": "Killed %d item(s)"
+}

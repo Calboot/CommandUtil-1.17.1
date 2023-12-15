@@ -1,0 +1,4 @@
+{
+  "commands.cmdutil.killitem.no_target": "没有可清除的掉落物",
+  "commands.cmdutil.killitem.success": "清除了%d个掉落物"
+}
